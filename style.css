@@ -19,7 +19,7 @@ body {
 }
 
 nav.navbar {
-    background-color: #0055A4 !important; /* French Blue */
+    background-color: #0055A4 !important;
 }
 
 .nav-tabs .nav-link.active {
@@ -40,3 +40,4 @@ nav.navbar {
     border-radius: 15px;
     width: 60%;
 }
+
