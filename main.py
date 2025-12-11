@@ -101,6 +101,7 @@ def show_club(e):
     club = CLUBS.get(key)
     out = document.getElementById("club_info")
 
+# learned how to do this in a yotube video made by Krish Naik
     html = f"""
         <h5>{club['Name']}</h5>
         <p><strong>Description:</strong> {club['Description']}</p>
@@ -111,3 +112,4 @@ def show_club(e):
     """
 
     out.innerHTML = html
+
